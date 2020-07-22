@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/text_view_player1"
+            android:layout_width="133dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="400px"
+            android:layout_marginTop="15px"
+            android:text="X  0: "
+            android:textColor="#c0392b"
+            android:textSize="53sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_view_player2"
+            android:layout_width="446dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="-30dp"
+            android:layout_marginTop="25px"
+            android:layout_toRightOf="@+id/text_view_player1"
+            android:text="0  O"
+            android:textColor="#0000ff"
+            android:textSize="53sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/ButtonRes"
+        android:layout_width="133dp"
+        android:layout_height="63dp"
+        android:layout_marginLeft="485px"
+        android:layout_marginTop="75px"
+        android:background="#ffffff"
+        android:text="Reset"
+        android:textColor="#000000"
+        android:textSize="23sp"
+        android:textStyle="bold|italic" />
+
+</LinearLayout>
